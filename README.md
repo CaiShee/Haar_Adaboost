@@ -7,7 +7,7 @@ This project aims to explore and implement face detection technology based on Ha
 - **Frameworks and Libraries**: PyTorch, NumPy, Matplotlib, Scikit-learn
 
 ## Installation Guide
-1. Ensure Python 3.x is installed.
+1. Ensure Python >=3.8 is installed.
 2. Install the required libraries:
    ```
    pip install torch numpy matplotlib scikit-learn
