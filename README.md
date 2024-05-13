@@ -6,6 +6,13 @@ This project aims to explore and implement face detection technology based on Ha
 - **Programming Language**: Python
 - **Frameworks and Libraries**: PyTorch, NumPy, Matplotlib, Scikit-learn
 
+## Installation Guide
+1. Ensure Python 3.x is installed.
+2. Install the required libraries:
+   ```
+   pip install torch numpy matplotlib scikit-learn
+   ```
+
 ## Detailed Experimental Principles
 ### Adaboost Algorithm
 - **Weak Classifiers**: Multiple weak classifiers (such as MLP) are combined through weighted voting to form a strong classifier.
@@ -27,9 +34,12 @@ This project aims to explore and implement face detection technology based on Ha
 - **Adaboost**: Shows better generalization on the test set but requires a longer training time.
 - **Logistic Regression**: Faster inference speed, suitable for resource-constrained environments, but slightly inferior performance on the test set compared to Adaboost.
 
+
 ## Experimental Conclusion
 - Adaboost is suitable for tasks that require higher stability and generalization capabilities.
 - Logistic Regression is suitable for tasks with less stringent requirements for accuracy and stability but limited computational power.
+
+![1715566219765](image/README/1715566219765.png)
 
 ## Project Source Code
 The source code has been uploaded to GitHub and can be accessed through the following link:
